@@ -20,6 +20,10 @@ public class Kunde{
 
     private Konto konto2 = new Konto(23456, 120, null);
 
+    private Girokonto giro;
+
+    private Sparkonto spar;
+
  
 
  
@@ -35,6 +39,10 @@ public class Kunde{
       this.anschrift = anschrift;
 
       this.PIN = PIN;
+
+      giro = 0;
+
+      spar = 0;
 
      
 
@@ -59,6 +67,10 @@ public class Kunde{
     public void setKundennr(int kundennr){this.kundennr = kundennr;}
 
     public void setPIN(int PIN){this.PIN = PIN;}
+
+    public void setGiro(Girokonto giro){this.giro = giro;}
+
+    public void setSpar(Sparkonto spar){this.spar = spar;}
 
  
 

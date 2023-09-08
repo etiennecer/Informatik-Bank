@@ -1,4 +1,4 @@
-public class Konto{
+public abstract class Konto{
 
  
 

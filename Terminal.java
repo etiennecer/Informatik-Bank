@@ -1,4 +1,4 @@
-public class Terminal{
+public abstract class Terminal{
 
  
 
